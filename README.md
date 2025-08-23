@@ -62,7 +62,7 @@ List the common symptoms of iron deficiency anemia.
 
 ### Response:"""
 
-print(pipe(prompt, max_new_tokens=200)[0]["generated_text"])
+print(pipe(prompt, max_new_tokens=256)[0]["generated_text"])
 ```
 
 ## ✅ Example Prompts
